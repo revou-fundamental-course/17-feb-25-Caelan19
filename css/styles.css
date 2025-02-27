@@ -1,1 +1,101 @@
 /* Ini CSS External */
+
+body {
+    font-family: math;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-company{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/seed/picsum/200/);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+}
+
+nav > a {
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.no-border-radius {
+    border-radius: 0px;
+}
+
+.no-border-radius-right {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+}
+
+.no-border-radius-left {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+
+main>header {
+    text-align: center;
+}
+
+.happiness {
+    font-weight: lighter;
+}
+
+.main-content {
+    display: flex;
+    gap: 25px;
+}
+
+.main-container {
+    border: 1px solid;
+    height: 450px;
+    flex: 1;
+    align-content: center;
+    text-align: center;
+}
+
+#our-package-section>header {
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: darkseagreen;
+}
+
+.our-package-content {
+    border: 1px solid;
+    height: 300px;
+    align-content: center;
+    text-align: center;
+}
+
+#contact-us-section>header {
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: burlywood;
+}
+
+.contact-us-content {
+    border: 1px solid;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
